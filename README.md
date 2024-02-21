@@ -19,9 +19,11 @@ That works, but then you lose grip on your designator numbers. The automatic ann
 
 Copy the content of `kicad_designators.py` and put it in your KiCAD project. The script assumes that all your `.kicad_sch` and `kicad_pcb` files are in a single directory - preferrably the same as the script is dropped in. Now, backup your KiCAD project.
 
-Seriously. Back up your KiCAD project. If something goes wrong, this script can mess it up beyond repair.
+Seriously. Back up your KiCAD project. If something goes wrong, this script can mess it up beyond repair. Also, close your KiCAD project. It will only get confused if you modify the KiCAD files while it's running!
 
 <img width="250" src="https://github.com/kristofmulier/kicad_designators/assets/19362684/2ea1db79-e75f-4fc9-8bc1-94ba0cb5dbd8">
+
+> Close your KiCAD project, make a backup and ONLY THEN run this script.
 
 Now, run the script with the `-s` or `--show` parameter:
 
