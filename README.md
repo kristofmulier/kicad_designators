@@ -23,7 +23,8 @@ Seriously. Back up your KiCAD project. If something goes wrong, this script can 
 
 <img width="250" src="https://github.com/kristofmulier/kicad_designators/assets/19362684/2ea1db79-e75f-4fc9-8bc1-94ba0cb5dbd8">
 
-> Close your KiCAD project, make a backup and ONLY THEN run this script.
+&nbsp;<br>
+> IMPORTANT: Close your KiCAD project, make a backup and ONLY THEN run this script.
 
 Now, run the script with the `-s` or `--show` parameter:
 
