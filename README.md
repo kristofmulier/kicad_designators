@@ -100,3 +100,9 @@ The new capacitor automatically fills the gap you just created!
 
 The `kicad_designators.py` script operates on both the `.kicad_sch` and `kicad_pcb` files. After the operation, they should still be in sync. Contact me if it wouldn't be the case.
 
+If you forgot how to run the script, just run it with the `-h` or `--help` flag:
+
+```sh
+> python kicad_designators.py --help
+```
+
