@@ -58,10 +58,10 @@ Warning: Gap found in C series between 'C10' and 'C12'
 
 Okay, so apparently designator `C11` is missing. To fix this, we should shift `C12`, `C13`, ... down. Like so:
 
-`C12` => `C11`
-`C13` => `C12`
-`C14` => `C13`
-...
+`C12` => `C11`<br>
+`C13` => `C12`<br>
+`C14` => `C13`<br>
+...<br>
 
 You get the point. To achieve that, invoke the script with the `-d` or `--decrement` parameter and provide `C12` as the argument:
 
